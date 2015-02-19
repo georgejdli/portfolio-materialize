@@ -3,10 +3,6 @@ body, html
     background-color: #EDEDED !important;
 }
 
-.activator {
-    cursor: pointer;
-}
-
 .intro {
     text-align: center;
     padding-top: 13%;
@@ -89,6 +85,15 @@ body, html
     display: inline-block;
     float: left;
 }
+
+.activator {
+    cursor: pointer;
+}
+
+.card-reveal {
+    overflow-y: scroll;
+}
+
 .contact .col {
     margin-bottom: 24px;
 }
